@@ -1,0 +1,30 @@
+{
+  "name": "custompack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "vue": "^3.2.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@vue/compiler-sfc": "^3.2.8",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.4.0",
+    "file-loader": "^6.2.0",
+    "style-loader": "^3.3.0",
+    "vue-loader": "^16.8.1",
+    "webpack": "^5.52.0",
+    "webpack-cli": "^4.9.0"
+  },
+  "browser": [
+    "last 3"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
