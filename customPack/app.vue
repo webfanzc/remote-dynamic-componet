@@ -11,11 +11,13 @@
 import { ref } from 'vue';
 
 let a = ref(3)
+let b = 'orange'
 </script>
 
 <style scoped>
 h3 {
   margin-top: 60px;
   color: red;
+  color: v-bind(b);
 }
 </style>

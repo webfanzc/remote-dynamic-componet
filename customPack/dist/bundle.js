@@ -12,7 +12,7 @@ return /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 27:
+/***/ 229:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
@@ -27,7 +27,7 @@ return /******/ (() => { // webpackBootstrap
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\nh3[data-v-250f0c76] {\r\n  margin-top: 60px;\r\n  color: red;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\nh3[data-v-f03dfa74] {\r\n  margin-top: 60px;\r\n  color: red;\r\n  color: var(--65e1e399);\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -550,8 +550,9 @@ var external_Vue_ = __webpack_require__(740);
 ;// CONCATENATED MODULE: ./node_modules/babel-loader/lib/index.js??clonedRuleSet-1.use!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[7].use[0]!./app.vue?vue&type=script&setup=true&lang=js
 
 
+
 var _withScopeId = function _withScopeId(n) {
-  return (0,external_Vue_.pushScopeId)("data-v-250f0c76"), n = n(), (0,external_Vue_.popScopeId)(), n;
+  return (0,external_Vue_.pushScopeId)("data-v-f03dfa74"), n = n(), (0,external_Vue_.popScopeId)(), n;
 };
 
 var _hoisted_1 = /*#__PURE__*/_withScopeId(function () {
@@ -569,7 +570,14 @@ var _hoisted_2 = /*#__PURE__*/_withScopeId(function () {
 
 /* harmony default export */ const dist_ruleSet_1_rules_7_use_0_appvue_type_script_setup_true_lang_js = ({
   setup: function setup(__props) {
+    (0,external_Vue_.useCssVars)(function (_ctx) {
+      return {
+        "65e1e399": (0,external_Vue_.unref)(b)
+      };
+    });
+
     var a = (0,external_Vue_.ref)(3);
+    var b = 'orange';
     return function (_ctx, _cache) {
       return (0,external_Vue_.openBlock)(), (0,external_Vue_.createElementBlock)("div", null, [(0,external_Vue_.createElementVNode)("h3", null, (0,external_Vue_.toDisplayString)((0,external_Vue_.unref)(a)), 1
       /* TEXT */
@@ -601,9 +609,9 @@ var insertStyleElement_default = /*#__PURE__*/__webpack_require__.n(insertStyleE
 // EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/styleTagTransform.js
 var styleTagTransform = __webpack_require__(589);
 var styleTagTransform_default = /*#__PURE__*/__webpack_require__.n(styleTagTransform);
-// EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[7].use[0]!./app.vue?vue&type=style&index=0&id=250f0c76&scoped=true&lang=css
-var dist_ruleSet_1_rules_7_use_0_appvue_type_style_index_0_id_250f0c76_scoped_true_lang_css = __webpack_require__(27);
-;// CONCATENATED MODULE: ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[7].use[0]!./app.vue?vue&type=style&index=0&id=250f0c76&scoped=true&lang=css
+// EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[7].use[0]!./app.vue?vue&type=style&index=0&id=f03dfa74&scoped=true&lang=css
+var dist_ruleSet_1_rules_7_use_0_appvue_type_style_index_0_id_f03dfa74_scoped_true_lang_css = __webpack_require__(229);
+;// CONCATENATED MODULE: ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/vue-loader/dist/index.js??ruleSet[1].rules[7].use[0]!./app.vue?vue&type=style&index=0&id=f03dfa74&scoped=true&lang=css
 
       
       
@@ -625,14 +633,14 @@ options.setAttributes = (setAttributesWithoutAttributes_default());
 options.domAPI = (styleDomAPI_default());
 options.insertStyleElement = (insertStyleElement_default());
 
-var update = injectStylesIntoStyleTag_default()(dist_ruleSet_1_rules_7_use_0_appvue_type_style_index_0_id_250f0c76_scoped_true_lang_css/* default */.Z, options);
+var update = injectStylesIntoStyleTag_default()(dist_ruleSet_1_rules_7_use_0_appvue_type_style_index_0_id_f03dfa74_scoped_true_lang_css/* default */.Z, options);
 
 
 
 
-       /* harmony default export */ const vue_loader_dist_ruleSet_1_rules_7_use_0_appvue_type_style_index_0_id_250f0c76_scoped_true_lang_css = (dist_ruleSet_1_rules_7_use_0_appvue_type_style_index_0_id_250f0c76_scoped_true_lang_css/* default */.Z && dist_ruleSet_1_rules_7_use_0_appvue_type_style_index_0_id_250f0c76_scoped_true_lang_css/* default.locals */.Z.locals ? dist_ruleSet_1_rules_7_use_0_appvue_type_style_index_0_id_250f0c76_scoped_true_lang_css/* default.locals */.Z.locals : undefined);
+       /* harmony default export */ const vue_loader_dist_ruleSet_1_rules_7_use_0_appvue_type_style_index_0_id_f03dfa74_scoped_true_lang_css = (dist_ruleSet_1_rules_7_use_0_appvue_type_style_index_0_id_f03dfa74_scoped_true_lang_css/* default */.Z && dist_ruleSet_1_rules_7_use_0_appvue_type_style_index_0_id_f03dfa74_scoped_true_lang_css/* default.locals */.Z.locals ? dist_ruleSet_1_rules_7_use_0_appvue_type_style_index_0_id_f03dfa74_scoped_true_lang_css/* default.locals */.Z.locals : undefined);
 
-;// CONCATENATED MODULE: ./app.vue?vue&type=style&index=0&id=250f0c76&scoped=true&lang=css
+;// CONCATENATED MODULE: ./app.vue?vue&type=style&index=0&id=f03dfa74&scoped=true&lang=css
 
 // EXTERNAL MODULE: ./node_modules/vue-loader/dist/exportHelper.js
 var exportHelper = __webpack_require__(744);
@@ -643,7 +651,7 @@ var exportHelper = __webpack_require__(744);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(dist_ruleSet_1_rules_7_use_0_appvue_type_script_setup_true_lang_js, [['__scopeId',"data-v-250f0c76"]])
+const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(dist_ruleSet_1_rules_7_use_0_appvue_type_script_setup_true_lang_js, [['__scopeId',"data-v-f03dfa74"]])
 
 /* harmony default export */ const app = (__exports__);
 })();

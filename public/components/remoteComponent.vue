@@ -7,16 +7,17 @@
   </div>
 </template>
 
-<script >
-import { defineComponent } from '@vue/runtime-core';
+<script setup>
+import { ref } from 'vue';
 
-export default defineComponent({
-
-})
+let a = ref(3)
+let b = 'orange'
 </script>
-<style>
+
+<style scoped>
 h3 {
   margin-top: 60px;
   color: red;
+  color: v-bind(b);
 }
 </style>

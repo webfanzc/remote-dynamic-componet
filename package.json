@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "preInstall": "yarn && cd customPack && yarn && cd ../vue-playground && yarn",
     "build": "cd customPack && npx webpack",
-    "playground": "cd ts-vue3 && yarn dev"
+    "playground": "cd vue-playground && yarn dev",
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
